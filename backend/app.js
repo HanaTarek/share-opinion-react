@@ -47,7 +47,7 @@ async function downvoteOpinion(id) {
 const app = express();
 
 // CORS
-app.use(cors({ origin: 'https://share-opinion-react.vercel.app/' }));
+app.use(cors({ origin: 'https://share-opinion-react.vercel.app' }));
 
 app.use(express.json());
 
